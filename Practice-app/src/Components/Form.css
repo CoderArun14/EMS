@@ -1,0 +1,31 @@
+.container{
+  width: 30%;
+  margin: 0 auto;
+}
+.header{
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  background-color: blue;
+  color: bisque;
+  line-height: 100px;
+}
+.input-box{
+  width: 100%;
+  margin: 0 auto;
+  background-color: aliceblue;
+}
+.input-box input{
+  width: 80%;
+  padding: 10px;
+  margin: 0 40px;
+}
+.input-box button{
+  width: 100px;
+  min-height: 40px;
+  color: white;
+  background-color: chartreuse;
+  border: none;
+  margin-left: 130px;
+
+}

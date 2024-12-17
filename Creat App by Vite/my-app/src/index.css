@@ -1,0 +1,76 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main{
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  
+}
+.card{
+  width: 25vw;
+  height: 50vh;
+  border: 1px solid blue;
+  float: left;  
+  margin-top: 10px;
+  
+}
+.card h1{
+  width: 100%;
+  height: 20%;
+  text-align: center;
+  border: 1px solid black;
+}
+.card .Sectwo{
+  width: 100%;
+  height: 25%;
+  border: 1px solid black;
+}
+.Sectwo ul{
+  width: 50%;
+  height: 100%;
+  float: left;
+  list-style: none;
+
+}
+
+
+
+.Sectwo img{
+  width: 50%;
+  height: 100%;
+  
+  
+}
+.Secthree{
+  width: 100%;
+  height: 25%;
+  border: 1px solid black;
+}
+.Secthree .color{
+  width: 40%;
+  height: 100%;
+  background-color: red;
+  float: left;
+}
+.Secthree p{
+  font-size: 12px;
+}
+.Secfour{
+  width: 100%;
+  height: 30%;
+  border: 1px solid black;
+}
+.Secfour img{
+  width: 50%;
+  height: 100%;
+}
+.Secfour .Second{
+  width: 50%;
+  height: 100%;
+  background-color: aquamarine;
+  float: right;
+}
