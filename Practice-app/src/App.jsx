@@ -43,11 +43,13 @@
 import React from 'react'
 import './App.css'
 import Form from './Components/Form'
+import ClassName from './Class'
 
 const App = () => {
   return (
     <>
-    <Form/>
+    <ClassName/>
+    {/* <Form/> */}
     </>
   )
 }

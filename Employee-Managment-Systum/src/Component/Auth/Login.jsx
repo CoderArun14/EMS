@@ -1,15 +1,13 @@
-import { Button } from 'bootstrap'
+
 import React, { useState } from 'react'
 
-const Login = () => {
+const Login = ({handleLogin}) => {
   let[email,setemail] = useState("")
   let[password,setpassword] =useState("")
 
   const handleSubmit=(e)=>{
     e.preventDefault()
-    console.log('email is',email)
-    console.log('password is',password)
-
+    handleLogin(email,password)
     setemail('')
     setpassword('')
   }

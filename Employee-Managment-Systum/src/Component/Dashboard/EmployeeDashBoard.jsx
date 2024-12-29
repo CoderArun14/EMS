@@ -3,13 +3,14 @@ import Header from '../Others/Header'
 import TaskNumber from '../Others/TaskNumber'
 import Tasklist from '../Task/Tasklist'
 
-const EmployeeDashBoard = () => {
+const EmployeeDashBoard = ({data,changeUser}) => {
+  // console.log(data)
   return (
     <>
     <div className='p-5 EmployeeDash'>
-    <Header/>
-    <TaskNumber/>
-    <Tasklist/>
+    <Header changeUser={changeUser} data={data}/>
+    <TaskNumber data={data}/>
+    <Tasklist data={data}/>
     </div>
     </>
   )

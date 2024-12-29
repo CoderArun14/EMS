@@ -3,12 +3,12 @@ import Header from "../Others/Header";
 import CreateTask from "../Others/CreateTask";
 import AllTask from "../Others/AllTask";
 
-const AdminDashBoard = () => {
+const AdminDashBoard = ({changeUser}) => {
   return (
     <>
       <div className="AdminDash ">
-        <Header />
-         <CreateTask/>
+        <Header changeUser={changeUser} />
+         <CreateTask changeUser={changeUser}/>
          <AllTask/>
       </div>
     </>
