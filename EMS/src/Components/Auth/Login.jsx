@@ -1,4 +1,6 @@
+import { Button } from '@mui/material'
 import React, { useState } from 'react'
+
 
 const Login = ({handleLogin}) => {
 
@@ -27,7 +29,7 @@ const handleSubmit=(e)=>{
     <input type="password" placeholder='Enter Your Password' className="form-control" id="exampleInputPassword1" onChange={(e)=>setpassword(e.target.value)} value={password}/>
   </div>
   <div className='d-flex justify-content-center'>
-  <button type="submit" className="btn btn-primary px-4 mt-3">Submit</button>
+  <Button variant="contained"  type="submit" className="btn btn-primary px-4 mt-3">Submit</Button>
   </div>
 </form>
     </div>
